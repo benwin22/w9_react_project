@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "firebase": "^9.23.0",
+    "react-firebase-hooks": "^5.1.1",
+    "react-hook-form": "^7.48.2",
+    "reactfire": "^4.2.3",
+    "tslib": "^2.6.2"
+  }
+}
