@@ -234,7 +234,7 @@ const SignUp = () => {
     return (
         <Box>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <Typography variant='h6'>Sign Up for Free!</Typography>
+                <Typography variant='h6'>TRD Sign Up!</Typography>
                 <Box>
                     <label htmlFor='email'></label>
                     <InputText {...register('email')} name='email' placeholder='Email Here'/>
