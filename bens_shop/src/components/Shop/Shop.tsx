@@ -136,7 +136,7 @@ const AddToCart = (cart: CartProps ) => {
         
         // 2 args, 1st: where we are pushing, 2nd is what we are pushing
         push(cartRef, myCart)
-        .then((newCartRef) => {
+        .then((_newCartRef) => {
             setMessage(`Successfully added item ${myCart.name} to Cart`)
             setMessageType('success')
             setOpen(true)
@@ -219,6 +219,12 @@ export const Shop = () => {
                                             </AccordionSummary>
                                             <AccordionDetails>
                                                 <Typography>{shop.description}</Typography>
+                                            </AccordionDetails>
+                                            <AccordionDetails>
+                                                <Typography>Make:{shop.make}</Typography>
+                                            </AccordionDetails>
+                                            <AccordionDetails>
+                                                <Typography>Model:{shop.model}</Typography>
                                             </AccordionDetails>
                                             <AccordionDetails>
                                                 <Typography>Year:{shop.year}</Typography>
